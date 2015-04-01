@@ -204,61 +204,44 @@
             <li><a href="http://github.com/mojombo/god/commit/be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2">JavaDoc</a></li>
         </ul> 
         
-        <h2>We all like making lists</h2>
-        <pre><code>['a', 'b'].map { |x| x.uppercase }</code></pre></li>
-        <li><p>In Rails, you can do a shortcut:</p>
-        <pre><code>['a', 'b'].map(&amp;:uppercase)</code></pre></li>
-        </ol>
-        <p>Some people seem to like definition lists</p>
-        <dl>
-          <dt>Lower cost</dt>
-          <dd>The new version of this product costs significantly less than the previous one!</dd>
-          <dt>Easier to use</dt>
-          <dd>We've changed the product so that it's much easier to use!</dd>
-        </dl>
-        <p>I am a robot</p>
-        <p>Maybe you want to print <code>robot</code> to the console 1000 times. Why not?</p>
-        <pre><code>def robot_invasion
-  puts("robot " * 1000)
-end</code></pre>
-        <p>You see, that was formatted as code because it's been indented by four spaces.</p>
-        <p>How about we throw some angle braces and ampersands in there?</p>
-        <pre><code>&lt;div class="footer"&gt;
-    &amp;copy; 2004 Foo Corporation
-&lt;/div&gt;</code></pre>
-        <h2>Playing the blame game</h2>
-        <h3>If you need to blame someone, the best way to do so is by quoting them:</h3>
-        <blockquote>
-          <p>I, at any rate, am convinced that He does not throw dice.</p>
-        </blockquote>
-        <p>Or perhaps someone a little less eloquent:</p>
-        <blockquote>
-          <p>I wish you'd have given me this written question ahead of time so I<br>could plan for it... I'm sure something will pop into my head here in<br>the midst of this press conference, with all the pressure of trying to<br>come up with answer, but it hadn't yet...</p>
-          <p>I don't want to sound like<br>I have made no mistakes. I'm confident I have. I just haven't - you<br>just put me under the spot here, and maybe I'm not as quick on my feet<br>as I should be in coming up with one.</p>
-        </blockquote>
-        <h2>Table for two</h2>
         
+        <h2>Example Code and Documentation.</h2>
+        <p><h3>Reading an mzIdentML</h3>
+          <pre>
+            <code>
+              //Open an inputFile mzIdentml File using memory  
+              MzIdentMLControllerImpl mzIdentMlController = new MzIdentMLControllerImpl(inputFile, true);  
+              
+              //Print size of the Sample List 
+              List<Sample> samples = mzIdentMlController.getSamples(); System.out.println(samples.size());  
 
-        <h2>Play by the rules</h2>
-        <p>Let's not forget the horizontal rule</p>
-        <hr/>
+              //Print the Id of the first sample 
+              System.out.println(samples.get(0).getId());  
 
-        <h2>Crazy linking action</h2>
-        <p>I get 10 times more traffic from <a href="http://google.com/" title="Google">Google</a> than from<br><a href="http://search.yahoo.com/" title="Yahoo Search">Yahoo</a> or <a href="http://search.msn.com/" title="MSN Search">MSN</a>.</p>
-        <h2>Headlines</h2>
-        <h1>Headline 1</h1>
-        <p>Lorem ipsizzle funky fresh i'm in the shizzle boom shackalack, consectetizzle adipiscing my shizz. Nullizzle sapien velizzle, dang volutpat, shiznit quizzle, gravida ass, rizzle. Pot get down get down tortor. Sed erizzle. Black go to hizzle dolizzle dapibizzle turpis fo shizzle my nizzle yo. Maurizzle pellentesque nibh et check it out. Bow wow wow check it out tortizzle. Pellentesque for sure rhoncizzle bow wow wow. In owned habitasse brizzle dictumst. Nizzle dapibizzle. Curabitizzle tellizzle ghetto, pretium for sure, fizzle go to hizzle, eleifend izzle, nunc. Dope suscipizzle. Integizzle boom shackalack velit ass purus.</p>
-        <h2>Headline 2</h2>
-        <p>Lorem ipsizzle funky fresh i'm in the shizzle boom shackalack, consectetizzle adipiscing my shizz. Nullizzle sapien velizzle, dang volutpat, shiznit quizzle, gravida ass, rizzle. Pot get down get down tortor. Sed erizzle. Black go to hizzle dolizzle dapibizzle turpis fo shizzle my nizzle yo. Maurizzle pellentesque nibh et check it out. Bow wow wow check it out tortizzle. Pellentesque for sure rhoncizzle bow wow wow. In owned habitasse brizzle dictumst. Nizzle dapibizzle. Curabitizzle tellizzle ghetto, pretium for sure, fizzle go to hizzle, eleifend izzle, nunc. Dope suscipizzle. Integizzle boom shackalack velit ass purus.</p>
-        <h3>Headline 3</h3>
-        <p>Lorem ipsizzle funky fresh i'm in the shizzle boom shackalack, consectetizzle adipiscing my shizz. Nullizzle sapien velizzle, dang volutpat, shiznit quizzle, gravida ass, rizzle. Pot get down get down tortor. Sed erizzle. Black go to hizzle dolizzle dapibizzle turpis fo shizzle my nizzle yo. Maurizzle pellentesque nibh et check it out. Bow wow wow check it out tortizzle. Pellentesque for sure rhoncizzle bow wow wow. In owned habitasse brizzle dictumst. Nizzle dapibizzle. Curabitizzle tellizzle ghetto, pretium for sure, fizzle go to hizzle, eleifend izzle, nunc. Dope suscipizzle. Integizzle boom shackalack velit ass purus.</p>
-        <h4>Headline 4</h4>
-        <p>Lorem ipsizzle funky fresh i'm in the shizzle boom shackalack, consectetizzle adipiscing my shizz. Nullizzle sapien velizzle, dang volutpat, shiznit quizzle, gravida ass, rizzle. Pot get down get down tortor. Sed erizzle. Black go to hizzle dolizzle dapibizzle turpis fo shizzle my nizzle yo. Maurizzle pellentesque nibh et check it out. Bow wow wow check it out tortizzle. Pellentesque for sure rhoncizzle bow wow wow. In owned habitasse brizzle dictumst. Nizzle dapibizzle. Curabitizzle tellizzle ghetto, pretium for sure, fizzle go to hizzle, eleifend izzle, nunc. Dope suscipizzle. Integizzle boom shackalack velit ass purus.</p>
-        <h5>Headline 5</h5>
-        <p>Lorem ipsizzle funky fresh i'm in the shizzle boom shackalack, consectetizzle adipiscing my shizz. Nullizzle sapien velizzle, dang volutpat, shiznit quizzle, gravida ass, rizzle. Pot get down get down tortor. Sed erizzle. Black go to hizzle dolizzle dapibizzle turpis fo shizzle my nizzle yo. Maurizzle pellentesque nibh et check it out. Bow wow wow check it out tortizzle. Pellentesque for sure rhoncizzle bow wow wow. In owned habitasse brizzle dictumst. Nizzle dapibizzle. Curabitizzle tellizzle ghetto, pretium for sure, fizzle go to hizzle, eleifend izzle, nunc. Dope suscipizzle. Integizzle boom shackalack velit ass purus.</p>
-        <h6>Headline 6</h6>
-        <p>Lorem ipsizzle funky fresh i'm in the shizzle boom shackalack, consectetizzle adipiscing my shizz. Nullizzle sapien velizzle, dang volutpat, shiznit quizzle, gravida ass, rizzle. Pot get down get down tortor. Sed erizzle. Black go to hizzle dolizzle dapibizzle turpis fo shizzle my nizzle yo. Maurizzle pellentesque nibh et check it out. Bow wow wow check it out tortizzle. Pellentesque for sure rhoncizzle bow wow wow. In owned habitasse brizzle dictumst. Nizzle dapibizzle. Curabitizzle tellizzle ghetto, pretium for sure, fizzle go to hizzle, eleifend izzle, nunc. Dope suscipizzle. Integizzle boom shackalack velit ass purus.</p>
-      </section>
+              //Print size of the Software List 
+              System.out.println(software.size());  
+
+              //Print the Name of the first Software 
+              System.out.println(software.get(0).getName());  
+
+              //Retrieve the Identification Metadata     
+              IdentificationMetaData experiment = mzIdentMlController.getIdentificationMetaData(); 
+              
+              // test SearchDatabase 
+              List<SearchDataBase> databases = experiment.getSearchDataBases();  
+
+              // test SpectrumIdentificationProtocol 
+              List<SpectrumIdentificationProtocol> spectrumIdentificationProtocol = experiment.getSpectrumIdentificationProtocols();  
+              
+              // Retrieve the Protein Identification Protocol 
+              Protocol proteinDetectionProtocol = experiment.getProteinDetectionProtocol();  
+              //Retrieve all Protein Identifications 
+              List<Comparable> identifications = new ArrayList<Comparable>(mzIdentMlController.getProteinIds());
+
+            </code>
+          </pre>
+          </p>
+       </section>
       <footer>
         <p>This project is maintained by <a href="mailto:pride-support@ebi.ac.uk">PRIDE Team</a></p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
