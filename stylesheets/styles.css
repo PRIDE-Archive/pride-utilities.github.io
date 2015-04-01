@@ -285,3 +285,13 @@ footer {
     color:#444;
   }
 }
+
+/* css */
+#logo {
+    padding: 70px 0 0 0;
+    overflow: hidden;
+    background-image: url("https://avatars0.githubusercontent.com/u/8590509?v=3&s=200");
+    background-repeat: no-repeat;
+    height: 0px !important;
+    height /**/:70px;
+}
