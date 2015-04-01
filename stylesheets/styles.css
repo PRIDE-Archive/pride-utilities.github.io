@@ -107,6 +107,7 @@ header {
   width:270px;
   float:left;
   position:fixed;
+  padding-right:20px;
 }
 
 header ul {
