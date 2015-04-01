@@ -84,25 +84,37 @@
             <li>Project <a href="https://github.com/PRIDE-Utilities/pride-utilities/wiki">Wiki</a></li>
             <li><a href="http://github.com/mojombo/god/commit/be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2">JavaDoc</a></li>
         </ul>   
-        <p>List of libraries and tools that use <strong>ms-data-core-api</strong></p>
-        <p>
-          <ul>
-            <li>The protein PRIDE protein inference library <a href="https://github.com/PRIDE-Utilities/pride-protein-inference">(pride-protein-inference)</a></li>
-            <li><a href="https://github.com/PRIDE-Toolsuite/pride-inspector">PRIDE Inspector Tool</a></li>
-            <li>PRIDE Repository Submission Pipeline<a href="http://www.ebi.ac.uk/pride/archive/"> (PRIDE Database) </a></li>
-        </ul> 
-        </p>
         
-        <h3>These are dangerous goodies though, and we need to make sure email addresses don't get mangled:</h3>
-        <p>My email addy is <a href="mailto:tom@github.com">tom@github.com</a>.</p>
-        <h2>Math is hard, let's go shopping</h2>
-        <p>In first grade I learned that 5 &gt; 3 and 2 &lt; 7. Maybe some arrows. 1 -&gt; 2 -&gt; 3. 9 &lt;- 8 &lt;- 7.</p>
-        <p>Triangles man! a^2 + b^2 = c^2</p>
-        <div class="highlight">
-        <pre><span class="nb">require</span> <span class="s1">'redcarpet'</span>
-<span class="n">markdown</span> <span class="o">=</span> <span class="no">Redcarpet</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="s2">"Hello World!"</span><span class="p">)</span>
-<span class="nb">puts</span> <span class="n">markdown</span><span class="o">.</span><span class="n">to_html</span></pre>
-        </div>
+        <h2 class="view">PRIDE Protein Inference</h2>
+        <header>
+          <ul>
+          <li><a href="https://github.com/PRIDE-Utilities/pride-protein-inference/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/PRIDE-Utilities/pride-protein-inference/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="http://github.com/PRIDE-Utilities/pride-protein-inferences/">View On 	<strong>GitHub</strong></a></li>
+        </ul>
+        </header>
+        <p><a href="https://github.com/PRIDE-Utilities/ms-data-core-api">Protein Inference Algorithms</a> (PIA) is a toolbox for MS based
+           protein inference and identification analysis. PIA allows you to inspect the results of common proteomics spectrum
+           identification search engines, combine them and conduct statistical analyses. The main focus of PIA lays on the integrated 
+           inference algorithms, i.e. concluding the proteins from a set of identified spectra. But it also allows you to inspect your 
+           peptide spectrum matches, calculate FDR values across different search engine results and visualize the correspondence between
+           PSMs, peptides and proteins.</p>
+
+         <p> Most search engines for protein identification in MS/MS experiments return protein lists, although the actual search yields
+             a set of peptide spectrum matches (PSMs). The step from PSMs to proteins is called “protein inference”. If a set of
+             identified PSMs supports the detection of more than one protein in the searched database (“protein ambiguity”), usually only
+             one representative accession is reported. These representatives may differ according to the used search engine and settings.
+             Thus the protein lists of different search engines generally cannot be compared with one another. PSMs of complementary 
+             search engines are often combined to enhance the number of reported proteins or to verify the evidence of a peptide,
+            which is improved by detection with distinct algorithms.</p>
+
+        <p>Related Documents:</p>
+        <ul>
+            <li>Project <a href="https://github.com/PRIDE-Utilities/pride-protein-inference/issues">Issues</a></li>
+            <li>Project <a href="https://github.com/PRIDE-Utilities/pride-protein-inference/wiki">Wiki</a></li>
+            <li><a href="http://github.com/mojombo/god/commit/be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2">JavaDoc</a></li>
+        </ul>   
+        
         <h2>We all like making lists</h2>
         <p>The above header should be an H2 tag. Now, for a list of fruits:</p>
         <ul>
