@@ -286,7 +286,7 @@ footer {
   }
 }
 
-.logo h1 {
+h1.logo {
 	background-image: url("https://avatars0.githubusercontent.com/u/8590509?v=3&s=200");
 	background-repeat: no-repeat;
 	background-position: left center;
