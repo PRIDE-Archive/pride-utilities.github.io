@@ -322,3 +322,13 @@ li.section {
   border-right:1px solid #d2d2d2;
   height:40px;
 }
+
+a.section {
+    display:inline;
+  }
+  
+ul.section {
+    position:absolute;
+    right:50px;
+    top:52px;
+  }
