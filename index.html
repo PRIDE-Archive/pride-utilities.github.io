@@ -203,44 +203,10 @@
             <li>Project <a href="https://github.com/PRIDE-Utilities/protein-detail-fetcher/wiki">Wiki</a></li>
             <li><a href="http://github.com/mojombo/god/commit/be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2">JavaDoc</a></li>
         </ul> 
-        
-        
-        <h2>Example Code and Documentation.</h2>
-        <p><h3>Reading an mzIdentML</h3>
-          <pre>
-            <code>
-              //Open an inputFile mzIdentml File using memory  
-              MzIdentMLControllerImpl mzIdentMlController = new MzIdentMLControllerImpl(inputFile, true);  
-              
-              //Print size of the Sample List 
-              List<Sample> samples = mzIdentMlController.getSamples(); System.out.println(samples.size());  
-
-              //Print the Id of the first sample 
-              System.out.println(samples.get(0).getId());  
-
-              //Print size of the Software List 
-              System.out.println(software.size());  
-
-              //Print the Name of the first Software 
-              System.out.println(software.get(0).getName());  
-
-              //Retrieve the Identification Metadata     
-              IdentificationMetaData experiment = mzIdentMlController.getIdentificationMetaData(); 
-              
-              // test SearchDatabase 
-              List<SearchDataBase> databases = experiment.getSearchDataBases();  
-
-              // test SpectrumIdentificationProtocol 
-              List<SpectrumIdentificationProtocol> spectrumIdentificationProtocol = experiment.getSpectrumIdentificationProtocols();  
-              
-              // Retrieve the Protein Identification Protocol 
-              Protocol proteinDetectionProtocol = experiment.getProteinDetectionProtocol();  
-              //Retrieve all Protein Identifications 
-              List<Comparable> identifications = new ArrayList<Comparable>(mzIdentMlController.getProteinIds());
-
-            </code>
-          </pre>
-          </p>
+        <h2> About Us</h2>
+        <ul>
+          <li><a href="https://github.com/orgs/PRIDE-Utilities/people">PRIDE Development Team</a></li>
+        </ul>
        </section>
       <footer>
         <p>This project is maintained by <a href="mailto:pride-support@ebi.ac.uk">PRIDE Team</a></p>
