@@ -323,12 +323,3 @@ li.section {
   height:40px;
 }
 
-a.section {
-    display:inline;
-  }
-  
-ul.section {
-    position:absolute;
-    right:50px;
-    top:52px;
-  }
