@@ -69,7 +69,7 @@
           <li><a href="http://github.com/PRIDE-Utilities/pride-utilities/">View On 	<strong>GitHub</strong></a></li>
         </ul>
         </header>
-        <p>The <a href="https://github.com/PRIDE-Utilities/ms-data-core-api">PRIDE Utilities</a> module contains a series of data structures
+        <p>The <a href="https://github.com/PRIDE-Utilities/pride-utilities">PRIDE Utilities</a> module contains a series of data structures
            and algorithms used by all the components of the PRIDE Inspector Toolsuite and other PRIDE Projects such as <a href="http://github.com/PRIDE-Archive/">PRIDE Archive libraries</a> 
            and <a href="http://github.com/PRIDE-Cluster/">PRIDE Cluster</a>. Some of the values defined in PRIDE Utilities are the definition
            of the amino acid mass table, pK values and hydrophobic indexes. The module also contains the mappings between different
@@ -93,7 +93,7 @@
           <li><a href="http://github.com/PRIDE-Utilities/pride-protein-inferences/">View On 	<strong>GitHub</strong></a></li>
         </ul>
         </header>
-        <p><a href="https://github.com/PRIDE-Utilities/ms-data-core-api">Protein Inference Algorithms</a> (PIA) is a toolbox for MS based
+        <p><a href="https://github.com/PRIDE-Utilities/pride-protein-inference">Protein Inference Algorithms</a> (PIA) is a toolbox for MS based
            protein inference and identification analysis. PIA allows you to inspect the results of common proteomics spectrum
            identification search engines, combine them and conduct statistical analyses. The main focus of PIA lays on the integrated 
            inference algorithms, i.e. concluding the proteins from a set of identified spectra. But it also allows you to inspect your 
@@ -115,22 +115,39 @@
             <li><a href="http://github.com/mojombo/god/commit/be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2">JavaDoc</a></li>
         </ul>   
         
-        <h2>We all like making lists</h2>
-        <p>The above header should be an H2 tag. Now, for a list of fruits:</p>
-        <ul>
-        <li>Red Apples</li>
-        <li>Purple Grapes</li>
-        <li>Green Kiwifruits</li>
+        <h2 class="view">PRIDE Modifications</h2>
+        <header>
+          <ul>
+          <li><a href="https://github.com/PRIDE-Utilities/pride-mod/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/PRIDE-Utilities/pride-mod/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="http://github.com/PRIDE-Utilities/pride-mod/">View On 	<strong>GitHub</strong></a></li>
         </ul>
-        <p>Let's get crazy:</p>
-        <ol>
-        <li><p>This is a list item with two paragraphs. Lorem ipsum dolor<br>sit amet, consectetuer adipiscing elit. Aliquam hendrerit<br>mi posuere lectus.</p>
-        <p>Vestibulum enim wisi, viverra nec, fringilla in, laoreet<br>vitae, risus. Donec sit amet nisl. Aliquam semper ipsum<br>sit amet velit.</p></li>
-        <li><p>Suspendisse id sem consectetuer libero luctus adipiscing.</p></li>
-        </ol>
-        <p>What about some code <strong>in</strong> a list? That's insane, right?</p>
-        <ol>
-        <li><p>In Ruby you can map like this:</p>
+        </header>
+        <p>The <a href="https://github.com/PRIDE-Utilities/pride-mod">PRIDE Modification </a> library is used to retrieve the protein
+           modification information for a specific identifier from different databases: Unimod, PSI-MOD and the PRIDE Modification 
+           controlled vocabulary.</p>
+        <p> Protein post-translational modifications (PTM) increase the functional diversity of the proteome by the covalent addition 
+            of functional groups or proteins, proteolytic cleavage of regulatory subunits or degradation of entire proteins. These
+            modifications include phosphorylation, glycosylation, ubiquitination, nitrosylation, methylation, acetylation, lipidation 
+            and proteolysis and influence almost all aspects of normal cell biology and pathogenesis. Therefore, identifying and
+            understanding PTMs is critical in the study of cell biology and disease treatment and prevention. In addition to PTMs,
+            there are other artefactual protein modifications that are added due to the experimental protocol followed by the researchers.
+            Some examples are carbamydomethylation or oxidation. The proteomics community has developed tow major resources for protein 
+            modifications (including PTMs): Unimod13 and PSI-MOD14. However, modification idenfifiers from these two resources are not 
+            trivial to map since some of the modification in Unimod are not present in PSI-MOD and vice versa. Also, every search 
+            engine uses their notation and either Unimod or PSI-MOD. The PRIDE Modification library is used to retrieve the modification
+            information for a specific identifier from different databases: Unimod, PSI-MOD and the PRIDE Modification controlled 
+            vocabulary (internal nomenclature used in PRIDE tools). This library is now used by different tools and pipelines.
+            </p>
+
+        <p>Related Documents:</p>
+        <ul>
+            <li>Project <a href="https://github.com/PRIDE-Utilities/pride-mod/issues">Issues</a></li>
+            <li>Project <a href="https://github.com/PRIDE-Utilities/pride-mod/wiki">Wiki</a></li>
+            <li><a href="http://github.com/mojombo/god/commit/be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2">JavaDoc</a></li>
+        </ul>   
+        
+        <h2>We all like making lists</h2>
         <pre><code>['a', 'b'].map { |x| x.uppercase }</code></pre></li>
         <li><p>In Rails, you can do a shortcut:</p>
         <pre><code>['a', 'b'].map(&amp;:uppercase)</code></pre></li>
