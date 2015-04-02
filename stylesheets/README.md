@@ -1,4 +1,6 @@
-# Minimal Theme
+# PRIDE Utilities Organization
+
+# Based on
 
 [Demo the Theme](http://orderedlist.github.com/minimal/)
 
