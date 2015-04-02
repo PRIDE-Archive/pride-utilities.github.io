@@ -1,4 +1,4 @@
-# PRIDE Utilities Organization
+# PRIDE Utilities Organisation
 
 # Based on
 
