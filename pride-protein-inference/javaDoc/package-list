@@ -1,0 +1,17 @@
+uk.ac.ebi.pride.utilities.pia.intermediate
+uk.ac.ebi.pride.utilities.pia.intermediate.prideimpl
+uk.ac.ebi.pride.utilities.pia.modeller
+uk.ac.ebi.pride.utilities.pia.modeller.fdr
+uk.ac.ebi.pride.utilities.pia.modeller.filter
+uk.ac.ebi.pride.utilities.pia.modeller.filter.peptide
+uk.ac.ebi.pride.utilities.pia.modeller.filter.protein
+uk.ac.ebi.pride.utilities.pia.modeller.filter.psm
+uk.ac.ebi.pride.utilities.pia.modeller.peptide
+uk.ac.ebi.pride.utilities.pia.modeller.protein
+uk.ac.ebi.pride.utilities.pia.modeller.protein.inference
+uk.ac.ebi.pride.utilities.pia.modeller.psm
+uk.ac.ebi.pride.utilities.pia.modeller.scores
+uk.ac.ebi.pride.utilities.pia.modeller.scores.peptide
+uk.ac.ebi.pride.utilities.pia.modeller.scores.protein
+uk.ac.ebi.pride.utilities.pia.modeller.scores.psm
+uk.ac.ebi.pride.utilities.pia.psisupport

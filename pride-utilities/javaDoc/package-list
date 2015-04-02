@@ -1,0 +1,10 @@
+uk.ac.ebi.pride.utilities.engine
+uk.ac.ebi.pride.utilities.exception
+uk.ac.ebi.pride.utilities.iongen.impl
+uk.ac.ebi.pride.utilities.iongen.ion
+uk.ac.ebi.pride.utilities.iongen.model
+uk.ac.ebi.pride.utilities.mol
+uk.ac.ebi.pride.utilities.term
+uk.ac.ebi.pride.utilities.util
+uk.ac.ebi.pride.utilities.util.Math
+uk.ac.ebi.pride.utilities.util.file
