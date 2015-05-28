@@ -102,7 +102,44 @@
             <li><a href="http://pride-utilities.github.io/pride-utilities/javaDoc/">JavaDoc</a></li>
         </ul>   
         
-        <h2 class="view">PRIDE Protein Inference</h2>
+        <h2 class="view">jmzReader</h2>
+        <header>
+          <ul>
+          <li><a href="https://github.com/PRIDE-Utilities/jmzReader/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/PRIDE-Utilities/jmzReader/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="http://github.com/PRIDE-Utilities/jmzReader/">View On 	<strong>GitHub</strong></a></li>
+        </ul>
+        </header>
+        <p><a href="https://github.com/PRIDE-Utilities/jmzReader">The jmzReader Library</a> is a collection of Java APIs to
+            parse the most commonly used MS peak list formats. Currently, the library contains parsers for: </p>
+
+        <ul>
+            <li>dta</li>
+            <li>mgf</li>
+            <li>ms2</li>
+            <li>mzData</li>
+            <li>mzXML</li>
+            <li>pkl</li>
+            <li>mzML</li>
+            <li>PRIDE XML</li>
+        </ul>
+        <p>All parsers are optimized to be used in conjunction with mzIdentML (see link in the left panel). Based on a custom build
+            class to efficiently parse text files line by line all parsers can handle arbitrary large files in minimal memory,
+            allowing easy and efficient processing of peak list files using the Java programming language.
+            mzIdentML files do not contain spectra data but refer to external peak list files. All peak list parsers support
+            the methods used by mzIdentML to reference external spectra and implement a common interface.
+            Thus, when developing software for mzIdentML programmers no longer have to support multiple peak list
+            file formats but only this one interface. An example of how the jmzReader library can be used in conjunction
+            with mzIdentML can be found in the wiki.</p>  
+</p>
+
+        <p>Related Documents:</p>
+        <ul>
+            <li>Project <a href="https://github.com/PRIDE-Utilities/jmzReader/issues">Issues</a></li>
+            <li>Project <a href="https://github.com/PRIDE-Utilities/jmzReader/wiki">Wiki</a></li>
+        </ul>
+
+          <h2 class="view">PRIDE Protein Inference</h2>
         <header>
           <ul>
           <li><a href="https://github.com/PRIDE-Utilities/pride-protein-inference/zipball/master">Download <strong>ZIP File</strong></a></li>
@@ -112,8 +149,8 @@
         </header>
         <p><a href="https://github.com/PRIDE-Utilities/pride-protein-inference">Protein Inference Algorithms</a> (PIA) is a toolbox for MS based
            protein inference and identification analysis. PIA allows you to inspect the results of common proteomics spectrum
-           identification search engines, combine them and conduct statistical analyses. The main focus of PIA lays on the integrated 
-           inference algorithms, i.e. concluding the proteins from a set of identified spectra. But it also allows you to inspect your 
+           identification search engines, combine them and conduct statistical analyses. The main focus of PIA lays on the integrated
+           inference algorithms, i.e. concluding the proteins from a set of identified spectra. But it also allows you to inspect your
            peptide spectrum matches, calculate FDR values across different search engine results and visualize the correspondence between
            PSMs, peptides and proteins.</p>
 
@@ -121,7 +158,7 @@
              a set of peptide spectrum matches (PSMs). The step from PSMs to proteins is called “protein inference”. If a set of
              identified PSMs supports the detection of more than one protein in the searched database (“protein ambiguity”), usually only
              one representative accession is reported. These representatives may differ according to the used search engine and settings.
-             Thus the protein lists of different search engines generally cannot be compared with one another. PSMs of complementary 
+             Thus the protein lists of different search engines generally cannot be compared with one another. PSMs of complementary
              search engines are often combined to enhance the number of reported proteins or to verify the evidence of a peptide,
             which is improved by detection with distinct algorithms.</p>
 
@@ -130,7 +167,7 @@
             <li>Project <a href="https://github.com/PRIDE-Utilities/pride-protein-inference/issues">Issues</a></li>
             <li>Project <a href="https://github.com/PRIDE-Utilities/pride-protein-inference/wiki">Wiki</a></li>
             <li><a href="http://pride-utilities.github.io/pride-protein-inference/javaDoc/">JavaDoc</a></li>
-        </ul>   
+        </ul>
         
         <h2 class="view">PRIDE Modifications</h2>
         <header>
